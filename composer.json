@@ -1,0 +1,18 @@
+{
+	"name": "carolkey/wesdk",
+	"description": "wechat-sdk",
+	"keywords": ["wechat", "wechat-sdk", "php-wechat"],
+	"homepage": "https://github.com/carolkey/wesdk",
+	"license": "MIT",
+	"authors": [
+		{"name": "carolkey", "email": "carolkey@wesdk.org", "homepage": "https://github.com/carolkey", "role": "Developer"}
+	],
+	"require":{
+		"php": ">=5.5.0",
+		"ext-openssl": "*",
+		"ext-SimpleXML": "*"
+	},
+	"autoload": {
+		"psr-4": {"wesdk\\": "/"}
+	}
+}
